@@ -21,6 +21,17 @@ body {
     transition: 0.5s ease;
 }
 
+.navigation-link-contact {
+    border: 2px solid transparent;
+}
+
+.navigation-link-contact:hover {
+    text-decoration: none;
+    border-bottom-color: #0275d8;
+    transition: 0.5s ease;
+    width: 1vw;
+}
+
 .main-container {
     min-height: 100vh;
 }
@@ -77,6 +88,11 @@ body {
 
 .text-color {
     color: #0275d8;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: auto;
 }
 
 footer {
