@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #0275d8;
+    transition: 0.5s ease;
+}
+
+.main-container {
+    min-height: 100vh;
+}
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_row h1 {
+    font-size: 5rem;
+}
+
+.main_row img {
+    width: auto;
+    height: 100vh;
+}
+
+#about {
+    background: #f5f5f5;
+    border-radius: 0.5rem;
+}
+
+.card {
+    border-bottom: 8px solid #0275d8;
+}
+
+#social-media {
+    background: #282828;
+}
+
+.media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #0275d8;
+    border-radius: 0.5rem;
+}
+
+.media_link:hover {
+    background: #0275d8;
+}
+
+.media_link:active {
+    background: #00407a;
+    border-color: #00407a;
+}
+
+.media_link:visited {
+    background: #2155b0;
+    border-color: #2155b0;
+}
+
+.text-color {
+    color: #0275d8;
+}
+
+footer {
+    background: #1f1f1f;
+}
